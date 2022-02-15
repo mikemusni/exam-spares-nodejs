@@ -1,0 +1,9 @@
+node_modules/
+dist/
+coverage
+yarn-lock.json
+package-lock.json
+.DS_Store
+.env
+.env.development
+.env.jest
