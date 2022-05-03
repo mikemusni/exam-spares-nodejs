@@ -1,5 +1,3 @@
-import * as Incident from "./models/incident";
-
 export const system = {
   DENIED_PERMISSION: "denied.permission",
   FAILED: "failed",
@@ -20,8 +18,10 @@ export const user = {
   EMPTY_PASSWORD: "empty.password",
 };
 
-export const incident = {
-  EMPTY_ASSIGN_TO: "empty.assignedTo",
+export const products = {
+  EMPTY_BRAND: "empty.brand",
+  EMPTY_CATEGORY: "empty.category",
+  EMPTY_CAR_MAKE: "empty.car.make",
   EMPTY_DESCRIPTION: "empty.description",
   EMPTY_ID: "empty.id",
   EMPTY_ORDER: "empty.orderBy",
@@ -30,6 +30,7 @@ export const incident = {
   EMPTY_TYPE: "empty.type",
   EXIST_TITLE: "exist.title",
   INVALID_TYPE: "invalid.type",
+  SIZE_EXCEEDED: "size.exceeded",
 };
 
 export const permission = {
@@ -47,8 +48,7 @@ export const orderTypes = {
   DATE_UPDATED: "dateUpdated",
 };
 
-export const incidentTypes = {
-  BUG: Incident.ITypeIncident.BUG,
-  FEATURED: Incident.ITypeIncident.FEATURE,
-  TECHNICAL: Incident.ITypeIncident.TECHNICAL,
-};
+export const showCase = {
+  FEATURED: "featured",
+  POPULAR: "popular",
+}

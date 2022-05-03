@@ -1,11 +1,11 @@
 import { Application, Request, Response } from "express";
 import user from "./user";
-import incident from "./incident";
+import products from "./products";
 import * as constant from "../constants";
 
 export const routes = (App: Application) => {
-  App.use("/user", user);
-  App.use("/incident", incident);
+  // App.use("/user", user);
+  App.use("/products", products);
 
   // App Routers failed
   App.use((req: Request, res: Response) => {

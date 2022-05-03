@@ -1,12 +1,12 @@
 {
-  "name": "exam-spares-nodejs",
-  "description": "Exam Spares NodeJS",
+  "name": "bei-api",
+  "description": "BEI auto parts api service",
   "version": "0.0.0",
   "author": "Mike Musni",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:mikemusni/exam-spares-nodejs.git"
+    "url": "git@gitlab.com:MikeMusni/bei-nodejs.git"
   },
   "main": "src/index.ts",
   "scripts": {
@@ -17,6 +17,7 @@
     "@types/cors": "^2.8.12",
     "@types/express": "^4.17.13",
     "@types/jest": "^27.4.0",
+    "@types/jsdom": "^16.2.14",
     "@types/node": "^17.0.16",
     "@types/supertest": "^2.0.11",
     "@types/uuid": "^8.3.4",
@@ -34,9 +35,13 @@
     "express": "^4.17.2",
     "express-sanitizer": "^1.0.6",
     "express-validator": "^6.14.0",
+    "got": "^12.0.3",
     "helmet": "^5.0.2",
+    "jsdom": "^16.4.0",
     "moment": "^2.29.1",
     "mongoose": "^6.2.1",
+    "nodejs-web-scraper": "^6.1.0",
+    "pdfkit": "^0.13.0",
     "uuid": "^8.3.2"
   }
 }

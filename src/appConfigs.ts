@@ -4,6 +4,8 @@ import bodyParser from "body-parser";
 import helmet from "helmet";
 import mongoose from "mongoose";
 import { routes } from "./routes";
+// import './workers/scrape'
+// import './helpers/pdfGen'
 
 const App: Application = express();
 App.use(helmet());
